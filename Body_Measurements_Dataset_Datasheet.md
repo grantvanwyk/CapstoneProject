@@ -14,7 +14,7 @@
 - **Number of Instances**: 500 observations.
 - **Sampling Method**: Not specified; likely convenience sampling.
 - **Representativeness**: There is no indication this is a statistically representative sample of any broader population.
-- **Data Types**: Gender (M/F), Height (in cm), Weight (in kg), Body measurements: Arm length, shoulder width, waist size, hip size, etc.
+- **Data Types**: Gender (M/F), Body measurements (in inches): Height, Arm length, shoulder width, waist size, hip size, etc.
 - **Label**: Gender is often used as a classification label; other columns are numeric targets for regression tasks.
 - **Missing Data**: None reported on the Kaggle page.
 - **Confidential or Sensitive Data**: All identifying information appears removed; no names or IDs.
