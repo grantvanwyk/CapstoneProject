@@ -66,7 +66,8 @@
 
 ## 8. Synthetic Data
 
-- **Was synthetic data used?** No. The dataset consists entirely of real, manually collected anthropometric measurements from human subjects.
+- **Was synthetic data used?** Yes. The original dataset consists entirely of real, manually collected anthropometric measurements from human subjects. However the amount of samples was low and therefore Synthetic data was also used to train the models. 
 - **Could synthetic data be beneficial?** Yes. Synthetic data could be used to augment this dataset, especially to balance underrepresented subgroups (e.g., certain age ranges or body types) or simulate more diverse demographic distributions.
 - **Risks of using synthetic data**: If not carefully generated, synthetic data may introduce unrealistic correlations or reinforce biases present in the original data. Proper validation would be necessary.
 - **Recommended Applications**: Use synthetic augmentation for robustness testing, privacy-preserving modeling, or to support deep learning model training where sample sizes are limited.
+- **How was the Synthetic Data Generated**: Synthetic data was generated using the CTGAN (Conditional Tabular GAN) model from the SDV library, which was trained on a cleaned dataset with metadata automatically detected, enabling the synthesizer to learn the statistical structure of the original data and produce 1,000 synthetic samples that preserve the original data's distributions and constraints.
