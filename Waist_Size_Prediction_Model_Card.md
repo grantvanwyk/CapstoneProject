@@ -77,7 +77,7 @@ All models were evaluated using the following metrics:
 
 ---
 
-**Author**: [Your Name]  
-**Date**: [Insert Date]  
+**Author**: Grant Van Wyk  
+**Date**: 17/06/2025
 **Source Data**: Kaggle - Body Measurements Dataset (Saurabh Shahane)
 
