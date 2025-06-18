@@ -57,7 +57,7 @@ Random Forest outperformed other models in both R² and cross-validation accurac
 ## 👤 Author
 
 Capstone Project by Grant Van Wyk  
-for course - Professional Certificate in Machine Learning and AI  
+Course - Professional Certificate in Machine Learning and AI  
 Imperial College London
 
 ## 📅 Date
