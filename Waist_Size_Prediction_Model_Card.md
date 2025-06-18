@@ -49,6 +49,14 @@ Expected performance:
 
 (Actual metric values were printed in code output)
 
+Model Performance Comparison (Bootstrapped Dataset):
+
+| Model                | MSE   | MAE   | R² Score | CV R² Score |
+|---------------------|-------|-------|----------|-------------|
+| Random Forest       | 16.926673 | 1.712808 | 0.819618     | 0.834787        |
+| Linear Regression   | 23.761139 | 3.614122 | 0.598236 | 0.407532 |
+| Support Vector Regressor | 58.090808 | 4.078305 | 0.380947    |  0.476464       |
+| Decision Tree       | 15.530233 | 1.334884 | 0.834500 |  0.735021    |
 
 
 ---
