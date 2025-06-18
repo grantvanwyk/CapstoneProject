@@ -12,6 +12,9 @@ This project uses machine learning to predict a person’s waist measurement bas
 - `Body_Measurements_Dataset_Datasheet.md`: Datasheet describing the Kaggle dataset used.
 - `Waist_Prediction_Model_Card.md`: Model card summarizing four regression models.
 - `Body_Measurements_Dataset_Datasheet_Revised_With_Synthetic.md`: Updated datasheet including synthetic data context.
+- `/data/Body Measurements _ original_CSV.csv`: Original dataset containing physical body measurements.
+- `/data/synthetic_body_measurements.csv`: Synthetic dataset created to supplement original data containing physical body measurements.
+- `/data/combined_data.csv`: Combined dataset containing original and synthetic physical body measurements.
 - `Body Measurements _ original_CSV.csv`: Original dataset containing physical body measurements.
 
 ## 📊 Dataset
