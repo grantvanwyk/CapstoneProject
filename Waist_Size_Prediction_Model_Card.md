@@ -8,7 +8,7 @@ This model card summarizes the development and evaluation of four machine learni
 ## Model Description
 
 **Inputs**:  
-- Features used for prediction:
+- Features used for prediction (in inches):
   - ShoulderWidth
   - ChestWidth
   - Belly
@@ -52,6 +52,7 @@ All models were evaluated using the following metrics:
 ## Limitations
 
 - **Dataset Size**: Limited to 716 individuals (bootstrapped to ~1074), which may not generalize across global populations.
+- **Synthetic Data Used**: Limited to 1000 synthesized individuals - using the CTGAN (Conditional Tabular GAN) model from the SDV library, which may not generalize across global populations.
 - **Demographic Bias**: No demographic information such as ethnicity or geographic distribution was available.
 - **Input Assumptions**: Assumes all features are available and measured accurately for prediction.
 
