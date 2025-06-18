@@ -52,6 +52,16 @@ Random Forest outperformed other models in both R² and cross-validation accurac
 Best Results Achieved:
 ![Model Performance](images/BestRandomForestResults.png)
 
+=== Experiment 1: TRAIN R1.0 + S0.0 | TEST R1.0 + S0.0 ===
+Performance Summary:
+
+| Model                | MSE   | MAE   | R² Score | CV R² Score |
+|---------------------|-------|-------|----------|-------------|
+| Random Forest       | 6.840386   | 1.665997   |  0.911041     | 0.563220         |
+| Linear Regression   | 37.422332 | 3.85210 |  0.513325 |  0.433347  |
+| Support Vector Regressor | 27.882846 |  2.562967 |  0.637385    | 0.540550       |
+| Decision Tree       | 19.045885 | 3.101233 | 0.752310 | 0.340843    |
+
 
 
 ## ⚠️ Limitations
