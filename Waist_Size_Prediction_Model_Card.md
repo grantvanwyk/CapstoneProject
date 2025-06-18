@@ -47,7 +47,7 @@ Expected performance:
 | Support Vector Regressor | Higher | Higher | Lower    | Lower       |
 | Decision Tree       | Moderate | Moderate | Moderate | Moderate    |
 
-(Actual metric values were printed in code output)
+(See notebook for further experiments and performance results)
 
 Model Performance Comparison (Bootstrapped Dataset):
 
@@ -58,6 +58,15 @@ Model Performance Comparison (Bootstrapped Dataset):
 | Support Vector Regressor | 58.090808 | 4.078305 | 0.380947    |  0.476464       |
 | Decision Tree       | 15.530233 | 1.334884 | 0.834500 |  0.735021    |
 
+Revised and Hypertuned Model Performance Comparison:
+
+
+| Model                | MSE   | MAE   | R² Score | CV R² Score |
+|---------------------|-------|-------|----------|-------------|
+| Random Forest       | 6.840386   | 1.665997   |  0.911041     | 0.563220         |
+| Ridge Regression    | 37.422332 | 3.85210 |  0.513325 |  0.433347  |
+| Support Vector Regressor | 27.882846 |  2.562967 |  0.637385    | 0.540550       |
+| Decision Tree       | 19.045885 | 3.101233 | 0.752310 | 0.340843    |
 
 ---
 
