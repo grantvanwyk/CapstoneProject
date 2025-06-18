@@ -48,6 +48,7 @@ This project uses machine learning to predict a person’s waist measurement bas
 ## 📈 Results
 
 Random Forest outperformed other models in both R² and cross-validation accuracy. SVR had the lowest performance, likely due to scaling and kernel limitations on this dataset.
+![Model Performance](images/BestRandomForestResults.png)
 
 ## ⚠️ Limitations
 
