@@ -37,7 +37,7 @@ All models were evaluated using the following metrics:
 - **MAE (Mean Absolute Error)**
 - **R² Score (Test Set Accuracy)**
 - **Cross-Validated R² Score (5-Fold)**
-
+Expected:
 | Model                | MSE   | MAE   | R² Score | CV R² Score |
 |---------------------|-------|-------|----------|-------------|
 | Random Forest       | Low   | Low   | High     | High        |
@@ -45,7 +45,9 @@ All models were evaluated using the following metrics:
 | Support Vector Regressor | Higher | Higher | Lower    | Lower       |
 | Decision Tree       | Moderate | Moderate | Moderate | Moderate    |
 
-(Actual metric values were printed in code output; replace placeholders with real values for deployment.)
+(Actual metric values were printed in code output)
+
+
 
 ---
 
