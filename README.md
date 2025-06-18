@@ -63,6 +63,9 @@ Performance Summary:
 | Support Vector Regressor | 27.882846 |  2.562967 |  0.637385    | 0.540550       |
 | Decision Tree       | 19.045885 | 3.101233 | 0.752310 | 0.340843    |
 
+Random Forest Model Waist Size Estimation: 
+Visualisation using the high-ranking features to estimate waist size. 
+![Model Random Forest](images/RandomForestPrediction.png).
 
 
 ## ⚠️ Limitations
