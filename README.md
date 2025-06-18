@@ -32,6 +32,7 @@ This project uses machine learning to predict a person’s waist measurement bas
 
 ### Synthetic Data Generation
 - Used `CTGANSynthesizer` from the SDV library to create synthetic data samples for data augmentation and testing
+- Synthetic data was used to augment the original dataset and address its limitations, such as small sample size and potential lack of diversity. By generating additional, statistically consistent records using a CTGAN model, we were able to simulate a broader range of body types and reduce overfitting in model training. This helped improve model robustness and allowed us to explore how the model performs on unseen variations, which is especially valuable in real-world applications where new data may differ from the training set.
 
 ### Models Used
 - **Random Forest Regressor**
