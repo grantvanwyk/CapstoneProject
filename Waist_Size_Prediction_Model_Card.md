@@ -37,7 +37,8 @@ All models were evaluated using the following metrics:
 - **MAE (Mean Absolute Error)**
 - **R² Score (Test Set Accuracy)**
 - **Cross-Validated R² Score (5-Fold)**
-Expected:
+  
+Expected performance:
 
 | Model                | MSE   | MAE   | R² Score | CV R² Score |
 |---------------------|-------|-------|----------|-------------|
